@@ -12,4 +12,9 @@ public class CalculaorTest {
 	Assert.assertEquals(4, result);
 	}
 
+	public void subtractTwoNumbersTest() {
+        Calculator calculator = new Calculator();
+        int result = calculator.subtract(10,5);
+        Assert.assertEquals(5, result);
+}
 }
