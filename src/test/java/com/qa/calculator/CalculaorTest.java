@@ -22,4 +22,9 @@ public class CalculaorTest {
         int result = calculator.multiply(2,5);
         Assert.assertEquals(10, result);
 }
+	public void divideTwoNumbersTest() {
+        Calculator calculator = new Calculator();
+        int result = calculator.divide(2,5);
+        Assert.assertEquals(10, result);
+}
 }
